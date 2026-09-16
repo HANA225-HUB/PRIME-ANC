@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite PRIME-ANC when using this code."
+title: "PRIME-ANC: Path-Ratio-Informed Modeling for Efficient Neural Filter Synthesis in Active Noise Control"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Huang
+    given-names: Yaokun
+  - family-names: Hua
+    given-names: Haowen
+  - family-names: Lin
+    given-names: Sen
+  - family-names: Hu
+    given-names: Shichao
+  - family-names: Zhu
+    given-names: Mengyao
+  - family-names: Xu
+    given-names: Chunyang
+repository-code: "https://github.com/HANA225-HUB/PRIME-ANC"
+license: MIT

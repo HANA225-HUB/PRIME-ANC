@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "prime-anc"
+version = "0.1.0"
+description = "Path-ratio-informed FIR synthesis for active noise control"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24", "scipy>=1.10", "torch>=2.2", "soundfile>=0.12"]
+[project.optional-dependencies]
+adaptive = ["numba>=0.60"]
+test = ["pytest>=8"]
+plots = ["matplotlib>=3.8"]
+[tool.setuptools.packages.find]
+include = ["prime_anc*"]

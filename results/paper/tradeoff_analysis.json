@@ -1,0 +1,470 @@
+{
+  "schema": "prime_anc.quality_time.v1",
+  "methods": {
+    "PRIME+GN:0": {
+      "nr_db": {
+        "mean": 17.755136343589164,
+        "sd_across_splits": 0.3018869318469045
+      },
+      "rebound_db": {
+        "mean": 0.13366815076481992,
+        "sd_across_splits": 0.019267977757781583
+      },
+      "rms": {
+        "mean": 0.3022288927600251,
+        "sd_across_splits": 0.01606910372425925
+      },
+      "time_ms": {
+        "mean": 0.7174780648104692,
+        "sd_across_splits": 0.0008185970272092547
+      }
+    },
+    "PRIME+GN:1": {
+      "nr_db": {
+        "mean": 20.868724637831036,
+        "sd_across_splits": 0.18508446384669788
+      },
+      "rebound_db": {
+        "mean": 0.13583367785184192,
+        "sd_across_splits": 0.01868781757552804
+      },
+      "rms": {
+        "mean": 0.3029422153440629,
+        "sd_across_splits": 0.01653513002533035
+      },
+      "time_ms": {
+        "mean": 1.3170575824915431,
+        "sd_across_splits": 0.001190361318953629
+      }
+    },
+    "PRIME+GN:2": {
+      "nr_db": {
+        "mean": 21.370493314041337,
+        "sd_across_splits": 0.22403362359860404
+      },
+      "rebound_db": {
+        "mean": 0.14921283737716928,
+        "sd_across_splits": 0.020679425606639334
+      },
+      "rms": {
+        "mean": 0.30568879166269713,
+        "sd_across_splits": 0.016716928610845876
+      },
+      "time_ms": {
+        "mean": 1.7718564847503633,
+        "sd_across_splits": 0.0018870388274611458
+      }
+    },
+    "PRIME+GN:3": {
+      "nr_db": {
+        "mean": 21.430187444937825,
+        "sd_across_splits": 0.24501009118398742
+      },
+      "rebound_db": {
+        "mean": 0.15648396989863408,
+        "sd_across_splits": 0.021877782363097623
+      },
+      "rms": {
+        "mean": 0.3073665870749539,
+        "sd_across_splits": 0.016816142557824806
+      },
+      "time_ms": {
+        "mean": 2.169259565077179,
+        "sd_across_splits": 0.0033060065063853826
+      }
+    },
+    "Ratio-base+GN:4": {
+      "nr_db": {
+        "mean": 19.28590728545123,
+        "sd_across_splits": 0.16999468421259986
+      },
+      "rebound_db": {
+        "mean": 0.41181627765605844,
+        "sd_across_splits": 0.013022789622192046
+      },
+      "rms": {
+        "mean": 0.31009702906991576,
+        "sd_across_splits": 0.028619213161493223
+      },
+      "time_ms": {
+        "mean": 2.0791319213458337,
+        "sd_across_splits": 0.00029814032596928007
+      }
+    },
+    "WMMSE-Direct:0": {
+      "nr_db": {
+        "mean": 21.722063918390297,
+        "sd_across_splits": 0.2777353835226294
+      },
+      "rebound_db": {
+        "mean": 0.3513474149461881,
+        "sd_across_splits": 0.028352405003739832
+      },
+      "rms": {
+        "mean": 0.5022419907336388,
+        "sd_across_splits": 0.03203918398969487
+      },
+      "time_ms": {
+        "mean": 4.6232764500018675,
+        "sd_across_splits": 0.004813379221061548
+      }
+    },
+    "WMMSE-FFT-PCG:512": {
+      "nr_db": {
+        "mean": 21.545597950368013,
+        "sd_across_splits": 0.2776829398989534
+      },
+      "rebound_db": {
+        "mean": 0.3101789516451412,
+        "sd_across_splits": 0.02565979352109186
+      },
+      "rms": {
+        "mean": 0.5016071285753549,
+        "sd_across_splits": 0.03197807165872104
+      },
+      "time_ms": {
+        "mean": 6.265790585894138,
+        "sd_across_splits": 0.00011232809123190052
+      }
+    },
+    "WMMSE-Direct+GN:3": {
+      "nr_db": {
+        "mean": 23.26428982221258,
+        "sd_across_splits": 0.28306678881126585
+      },
+      "rebound_db": {
+        "mean": 0.3573435264520063,
+        "sd_across_splits": 0.029099610900793042
+      },
+      "rms": {
+        "mean": 0.5056794552663741,
+        "sd_across_splits": 0.03218369725675711
+      },
+      "time_ms": {
+        "mean": 6.12048004186363,
+        "sd_across_splits": 0.00551042278408207
+      }
+    },
+    "Iterative-FIR:8192": {
+      "nr_db": {
+        "mean": 21.99167740418132,
+        "sd_across_splits": 0.19919100111713448
+      },
+      "rebound_db": {
+        "mean": 0.16451411422411888,
+        "sd_across_splits": 0.012737808295648512
+      },
+      "rms": {
+        "mean": 0.4494171917691167,
+        "sd_across_splits": 0.02747441625584312
+      },
+      "time_ms": {
+        "mean": 12430.124945759962,
+        "sd_across_splits": 2.2943787843343197
+      }
+    },
+    "weighted_fxlms": {
+      "nr_db": {
+        "n_splits": 10,
+        "mean": 19.49696475707968,
+        "sd_across_splits": 0.34388913325806736,
+        "min": 18.95475536903091,
+        "max": 20.001561209903578,
+        "split_values": [
+          19.529730695797575,
+          19.5259988078554,
+          19.18113160191111,
+          19.43732705776004,
+          18.95475536903091,
+          19.875124638254885,
+          19.397600141421837,
+          20.001561209903578,
+          19.890280226525565,
+          19.17613782233591
+        ]
+      },
+      "rebound_db": {
+        "n_splits": 10,
+        "mean": 0.12467610636050037,
+        "sd_across_splits": 0.011362607134959941,
+        "min": 0.1102930267773965,
+        "max": 0.14185106281374538,
+        "split_values": [
+          0.14185106281374538,
+          0.12606433391143199,
+          0.14006452333328562,
+          0.12381752041088705,
+          0.11677076908875209,
+          0.11774558147819743,
+          0.116751498449068,
+          0.11576678680789769,
+          0.1102930267773965,
+          0.13763596053434196
+        ]
+      },
+      "rms": {
+        "n_splits": 10,
+        "mean": 0.15038075818225435,
+        "sd_across_splits": 0.004644557071810383,
+        "min": 0.14590134067099492,
+        "max": 0.1601138692247342,
+        "split_values": [
+          0.1497916094199746,
+          0.14590134067099492,
+          0.15020524616448055,
+          0.15703130696681467,
+          0.1601138692247342,
+          0.14847247771274064,
+          0.14641084578906144,
+          0.14668695135806722,
+          0.1491141330081945,
+          0.1500798015074809
+        ]
+      },
+      "fold_ids": [
+        "blind_random_7of23_split_01",
+        "blind_random_7of23_split_02",
+        "blind_random_7of23_split_03",
+        "blind_random_7of23_split_04",
+        "blind_random_7of23_split_05",
+        "blind_random_7of23_split_06",
+        "blind_random_7of23_split_07",
+        "blind_random_7of23_split_08",
+        "blind_random_7of23_split_09",
+        "blind_random_7of23_split_10"
+      ],
+      "evidence": {
+        "asset_directory": "assets/adaptive/table/fxlms",
+        "mu": 0.45,
+        "evaluation_id": "adaptive-white-ten-noise",
+        "replay_sha256": "1099c84a4bce00e47b03f586fab2cdc44f3d1e17eab2f50a8d7745caef4673dc",
+        "aggregation": "ten fixed held split means, 128 conditions and ten noises per split; sample SD",
+        "controller": "one frozen white-trained 2048-tap FIR per query condition",
+        "adaptation_seconds": {
+          "min": 50,
+          "max": 120,
+          "mean": 75.65217391304348
+        },
+        "adaptation_cap_seconds": 240,
+        "adaptation_noise": "white only",
+        "adaptation_rms": 0.01,
+        "evaluation_nominal_rms": 0.05
+      }
+    },
+    "weighted_fxnlms": {
+      "nr_db": {
+        "n_splits": 10,
+        "mean": 19.83311600710014,
+        "sd_across_splits": 0.29747561404497724,
+        "min": 19.32483448276455,
+        "max": 20.245796263500903,
+        "split_values": [
+          19.845393570781013,
+          19.847126293026918,
+          19.63630608131389,
+          19.735938872593046,
+          19.32483448276455,
+          20.2024940009167,
+          19.867526534737777,
+          20.245796263500903,
+          20.11353971756007,
+          19.512204253806548
+        ]
+      },
+      "rebound_db": {
+        "n_splits": 10,
+        "mean": 0.14806878037921462,
+        "sd_across_splits": 0.014542025970069443,
+        "min": 0.128363044627541,
+        "max": 0.17293442283855623,
+        "split_values": [
+          0.1621652552756889,
+          0.15225003281169489,
+          0.17293442283855623,
+          0.142158108316099,
+          0.14304625887959294,
+          0.13453408581099274,
+          0.1496093743178399,
+          0.13307299268818176,
+          0.128363044627541,
+          0.16255422822595866
+        ]
+      },
+      "rms": {
+        "n_splits": 10,
+        "mean": 0.15233449699865073,
+        "sd_across_splits": 0.004916936128013025,
+        "min": 0.14701911823301675,
+        "max": 0.1620895954321451,
+        "split_values": [
+          0.1530395830814191,
+          0.1470307701083437,
+          0.15428907590460872,
+          0.15805591945507996,
+          0.1620895954321451,
+          0.15127238761427528,
+          0.1498681946978441,
+          0.14701911823301675,
+          0.1477110972644394,
+          0.15296922819533518
+        ]
+      },
+      "fold_ids": [
+        "blind_random_7of23_split_01",
+        "blind_random_7of23_split_02",
+        "blind_random_7of23_split_03",
+        "blind_random_7of23_split_04",
+        "blind_random_7of23_split_05",
+        "blind_random_7of23_split_06",
+        "blind_random_7of23_split_07",
+        "blind_random_7of23_split_08",
+        "blind_random_7of23_split_09",
+        "blind_random_7of23_split_10"
+      ],
+      "evidence": {
+        "asset_directory": "assets/adaptive/table/fxnlms",
+        "mu": 0.02,
+        "evaluation_id": "adaptive-white-ten-noise",
+        "replay_sha256": "1099c84a4bce00e47b03f586fab2cdc44f3d1e17eab2f50a8d7745caef4673dc",
+        "aggregation": "ten fixed held split means, 128 conditions and ten noises per split; sample SD",
+        "controller": "one frozen white-trained 2048-tap FIR per query condition",
+        "adaptation_seconds": {
+          "min": 40,
+          "max": 120,
+          "mean": 75.43478260869566
+        },
+        "adaptation_cap_seconds": 240,
+        "adaptation_noise": "white only",
+        "adaptation_rms": 0.01,
+        "evaluation_nominal_rms": 0.05
+      }
+    }
+  },
+  "table_selection": [
+    {
+      "label": "PRIME, direct",
+      "method": "PRIME+GN",
+      "budget": 0,
+      "key": "PRIME+GN:0",
+      "hardware": "GPU"
+    },
+    {
+      "label": "PRIME + GN(1)",
+      "method": "PRIME+GN",
+      "budget": 1,
+      "key": "PRIME+GN:1",
+      "hardware": "GPU"
+    },
+    {
+      "label": "PRIME + GN(2)",
+      "method": "PRIME+GN",
+      "budget": 2,
+      "key": "PRIME+GN:2",
+      "hardware": "GPU"
+    },
+    {
+      "label": "PRIME + GN(3)",
+      "method": "PRIME+GN",
+      "budget": 3,
+      "key": "PRIME+GN:3",
+      "hardware": "GPU"
+    },
+    {
+      "label": "Ratio-base + GN(4)",
+      "method": "Ratio-base+GN",
+      "budget": 4,
+      "key": "Ratio-base+GN:4",
+      "hardware": "GPU"
+    },
+    {
+      "label": "WMMSE, CPU direct",
+      "method": "WMMSE-Direct",
+      "budget": 0,
+      "key": "WMMSE-Direct:0",
+      "hardware": "CPU"
+    },
+    {
+      "label": "WMMSE + GN(3)",
+      "method": "WMMSE-Direct+GN",
+      "budget": 3,
+      "key": "WMMSE-Direct+GN:3",
+      "hardware": "CPU+GPU"
+    },
+    {
+      "label": "Iterative FIR",
+      "method": "Iterative-FIR",
+      "budget": 8192,
+      "key": "Iterative-FIR:8192",
+      "hardware": "GPU"
+    }
+  ],
+  "adaptive_sources": {
+    "weighted_fxlms": {
+      "asset_directory": "assets/adaptive/table/fxlms",
+      "mu": 0.45,
+      "evaluation_id": "adaptive-white-ten-noise",
+      "replay_sha256": "1099c84a4bce00e47b03f586fab2cdc44f3d1e17eab2f50a8d7745caef4673dc",
+      "aggregation": "ten fixed held split means, 128 conditions and ten noises per split; sample SD",
+      "controller": "one frozen white-trained 2048-tap FIR per query condition",
+      "adaptation_seconds": {
+        "min": 50,
+        "max": 120,
+        "mean": 75.65217391304348
+      },
+      "adaptation_cap_seconds": 240,
+      "adaptation_noise": "white only",
+      "adaptation_rms": 0.01,
+      "evaluation_nominal_rms": 0.05
+    },
+    "weighted_fxnlms": {
+      "asset_directory": "assets/adaptive/table/fxnlms",
+      "mu": 0.02,
+      "evaluation_id": "adaptive-white-ten-noise",
+      "replay_sha256": "1099c84a4bce00e47b03f586fab2cdc44f3d1e17eab2f50a8d7745caef4673dc",
+      "aggregation": "ten fixed held split means, 128 conditions and ten noises per split; sample SD",
+      "controller": "one frozen white-trained 2048-tap FIR per query condition",
+      "adaptation_seconds": {
+        "min": 40,
+        "max": 120,
+        "mean": 75.43478260869566
+      },
+      "adaptation_cap_seconds": 240,
+      "adaptation_noise": "white only",
+      "adaptation_rms": 0.01,
+      "evaluation_nominal_rms": 0.05
+    }
+  },
+  "adaptive_protocol": {
+    "input_seconds": [
+      6.5,
+      10
+    ],
+    "score_seconds": [
+      7,
+      10
+    ],
+    "score_windows": 6,
+    "window_samples": 24000,
+    "right_padding_samples": 576,
+    "demean_before_padding": true,
+    "window": "periodic Hann",
+    "nfft": 8192,
+    "hop": 2048,
+    "NR_centers_hz": [
+      50,
+      5000
+    ],
+    "AMP_centers_hz": [
+      50,
+      8000
+    ],
+    "AMP_clipping": "per window and band before averaging noises and conditions",
+    "evaluation_audio": "unaltered canonical C1 nominal RMS 0.05 clips",
+    "adaptation_audio": "white only, RMS 0.01; repeated 10-s clip",
+    "stopping": "every 10 s, stop after three consecutive absolute validation NR changes <= 0.7 dB; cap 240 s",
+    "scoring_audio_reused_in_adaptation": true,
+    "source_validation_padding_samples": 0,
+    "adaptation_rerun": false,
+    "FIR_modified": false
+  }
+}

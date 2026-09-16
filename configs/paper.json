@@ -1,0 +1,74 @@
+{
+  "sample_rate": 48000,
+  "fir_taps": 2048,
+  "split_count": 10,
+  "seeds": [
+    20260830,
+    20260831,
+    20260832
+  ],
+  "domains": {
+    "tenpath": {
+      "support": 3,
+      "total": 10,
+      "feature_nfft": 8192,
+      "P_hat_taps": 2048,
+      "S_hat_taps": 2048
+    },
+    "pandar": {
+      "support": 7,
+      "total": 23,
+      "feature_nfft": 32768,
+      "P_hat_taps": 8192,
+      "S_hat_taps": 2048
+    }
+  },
+  "evaluation": {
+    "whole_record_nominal_rms": 0.05,
+    "crop_seconds": [
+      6.5,
+      10
+    ],
+    "scored_seconds": [
+      7,
+      10
+    ],
+    "block_seconds": 0.5,
+    "nr_band_hz": [
+      50,
+      5000
+    ],
+    "amp_band_hz": [
+      50,
+      8000
+    ],
+    "rms_definition": "sqrt(mean((w*x)^2)) on score interval; no crop renormalization"
+  },
+  "adaptive_figure": {
+    "tenpath_mu": 0.0045,
+    "pandar_mu": 0.025,
+    "duration_seconds": 40,
+    "granularity": "path x noise",
+    "pandar_conditions": "46 original"
+  },
+  "adaptive_table": {
+    "fxlms_mu": 0.45,
+    "fxnlms_mu": 0.02,
+    "training_noise": "white",
+    "adaptation_rms": 0.01,
+    "evaluation_noises": 10,
+    "maximum_seconds": 240,
+    "actual_seconds_range": [
+      40,
+      120
+    ],
+    "gradient_band_hz": [
+      50,
+      5000
+    ],
+    "true_secondary": true,
+    "stop_tolerance_db": 0.7,
+    "stop_consecutive": 3,
+    "check_interval_seconds": 10
+  }
+}
