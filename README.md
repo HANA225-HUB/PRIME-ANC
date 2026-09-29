@@ -6,14 +6,24 @@ PRIME-ANC combines an analytic path-ratio magnitude base with a learned bounded 
 
 ## Results at a glance
 
-The standard model with paired support-path interpolation achieves the following held-out noise reduction over 50 Hz–5 kHz (mean ± sample SD across ten splits):
+**Direct synthesis.** The standard model generates a filter without query-specific optimization. With paired support-path interpolation, its held-out noise reduction over 50 Hz–5 kHz is (mean ± sample SD across ten splits):
 
-| Dataset | Support / held-out | Noise reduction (dB) |
+| Dataset | Support / held-out | PRIME-ANC NR (dB) |
 |---|---:|---:|
 | Ten-path | 3 / 7 paths | 18.81 ± 2.57 |
 | PANDAR | 7 / 16 participants | 17.76 ± 0.30 |
 
 ![Frequency-resolved noise reduction on held-out paths and participants](figures/main_k0_frequency.png)
+
+**Low-budget refinement.** On PANDAR, three Gauss–Newton updates bring PRIME-ANC close to direct WMMSE noise reduction, with lower amplification, control-output RMS and measured core design time (paper Table 3):
+
+| Method | NR (dB) | AMP (dB) | Control RMS | Core time (ms) |
+|---|---:|---:|---:|---:|
+| PRIME-ANC, direct | 17.755 | 0.134 | 0.302 | 0.717 |
+| PRIME-ANC + GN(3) | 21.430 | 0.156 | 0.307 | 2.169 |
+| WMMSE, CPU direct | 21.722 | 0.351 | 0.502 | 4.623 |
+
+![Noise reduction versus GN updates and core design time](figures/refinement_quality_time.png)
 
 ## Installation
 
@@ -34,7 +44,7 @@ The [v0.1.0 release assets](https://github.com/HANA225-HUB/PRIME-ANC/releases/ta
 
 ```bash
 mkdir -p assets
-tar -xzf prime_anc_paper_assets_20260916.tar.gz -C assets
+tar -xzf prime_anc_paper_assets_20260929.tar.gz -C assets
 python scripts/verify_assets.py --assets assets
 ```
 
@@ -59,7 +69,7 @@ Replay the two white-noise-trained adaptive references using the frozen ten-nois
 python scripts/replay_adaptive_table.py --assets assets --output adaptive_table.json
 ```
 
-Expected NR / AMP / control RMS:
+Expected adaptive-reference NR / AMP / control RMS:
 
 | Method | NR (dB) | AMP (dB) | RMS |
 |---|---:|---:|---:|
