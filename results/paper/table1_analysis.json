@@ -388,142 +388,62 @@
             "aggregation": "existing per-split means; ten splits; sample SD"
           }
         },
-        "pc_gfanc_support_selected": {
-          "nr_db": {
-            "n_splits": 10,
-            "mean": 8.891159259697174,
-            "sd_across_splits": 0.2074680156471431,
-            "min": 8.618475707796312,
-            "max": 9.16343033531774,
-            "split_values": [
-              9.15052533672462,
-              8.76184443928164,
-              8.618475707796312,
-              9.044611309171291,
-              9.091348406280112,
-              8.676074627234627,
-              8.683341019752264,
-              8.863219223347018,
-              9.16343033531774,
-              8.85872219206612
-            ]
-          },
-          "rebound_db": {
-            "n_splits": 10,
-            "mean": 0.278029015016748,
-            "sd_across_splits": 0.05613516299719707,
-            "min": 0.1513165870924528,
-            "max": 0.354566489151332,
-            "split_values": [
-              0.33438075397959527,
-              0.30236837659852184,
-              0.354566489151332,
-              0.25239371429990415,
-              0.1513165870924528,
-              0.2589798381467172,
-              0.2544714695907145,
-              0.29682355034868696,
-              0.27059747776609405,
-              0.3043918931934608
-            ]
-          },
-          "rms": {
-            "n_splits": 10,
-            "mean": 0.408904715332509,
-            "sd_across_splits": 0.08576993366371609,
-            "min": 0.27528630652533453,
-            "max": 0.5435766093732765,
-            "split_values": [
-              0.36297882036358314,
-              0.39633302226725736,
-              0.3549177969172792,
-              0.38019450378471564,
-              0.330926532101471,
-              0.47405080770941305,
-              0.45232472259501416,
-              0.5184580316877456,
-              0.5435766093732765,
-              0.27528630652533453
-            ]
-          },
-          "fold_ids": [
-            "blind_random_7of23_split_01",
-            "blind_random_7of23_split_02",
-            "blind_random_7of23_split_03",
-            "blind_random_7of23_split_04",
-            "blind_random_7of23_split_05",
-            "blind_random_7of23_split_06",
-            "blind_random_7of23_split_07",
-            "blind_random_7of23_split_08",
-            "blind_random_7of23_split_09",
-            "blind_random_7of23_split_10"
-          ],
-          "evidence": {
-            "source_id": "neural-style-control-results",
-            "sha256": "52fd9c9bc5d623981219a84fa16b844789ccf7a687d5c695a8e71a55f7e09e10",
-            "selection": {
-              "domain": "pandar",
-              "method": "gfanc"
-            },
-            "aggregation": "existing per-split means; ten splits; sample SD"
-          }
-        },
         "pc_e2e": {
           "nr_db": {
             "n_splits": 10,
-            "mean": 9.585489703813723,
-            "sd_across_splits": 0.383238242459893,
-            "min": 9.239872579325493,
-            "max": 10.494750916816432,
+            "mean": 9.746871822553532,
+            "sd_across_splits": 0.415716106806447,
+            "min": 9.262308458846276,
+            "max": 10.725027581325051,
             "split_values": [
-              9.466733180191017,
-              9.819321846649935,
-              9.685937594472392,
-              9.53143160877527,
-              9.286246057349402,
-              9.75183717051454,
-              9.314558574757646,
-              9.2642075092851,
-              9.239872579325493,
-              10.494750916816432
+              9.838669343414153,
+              9.747675581074864,
+              9.548970622112673,
+              9.382141718062625,
+              9.570790071423152,
+              10.106157687057959,
+              9.672651240461049,
+              9.262308458846276,
+              9.614325921757516,
+              10.725027581325051
             ]
           },
           "rebound_db": {
             "n_splits": 10,
-            "mean": 0.18148128195235824,
-            "sd_across_splits": 0.05251778285605553,
-            "min": 0.10253115558645869,
-            "max": 0.29052829574234,
+            "mean": 0.20930103661742772,
+            "sd_across_splits": 0.047673254211111404,
+            "min": 0.12696268532868185,
+            "max": 0.281862610382469,
             "split_values": [
-              0.29052829574234,
-              0.16056445739940475,
-              0.23354105079389179,
-              0.1692134215291845,
-              0.10253115558645869,
-              0.1481656608692579,
-              0.15346460425327837,
-              0.18294248919451497,
-              0.16006027156271466,
-              0.21380141259253685
+              0.281862610382469,
+              0.22456743558664796,
+              0.2650801960670044,
+              0.19059277106499317,
+              0.12696268532868185,
+              0.1740695322349407,
+              0.16884227248350178,
+              0.2213577455350578,
+              0.19272742840842724,
+              0.24694768908255318
             ]
           },
           "rms": {
             "n_splits": 10,
-            "mean": 0.22122791801659808,
-            "sd_across_splits": 0.01880432808226204,
-            "min": 0.18829098911964867,
-            "max": 0.24551713375028647,
+            "mean": 0.22471786174520933,
+            "sd_across_splits": 0.01751969884342331,
+            "min": 0.20041537993637026,
+            "max": 0.24471251177617437,
             "split_values": [
-              0.22038428496759774,
-              0.23549784583828806,
-              0.20533815195391766,
-              0.22812618393102277,
-              0.18829098911964867,
-              0.24551713375028647,
-              0.2234192885948673,
-              0.21935692667263848,
-              0.24539271108804772,
-              0.20095566424966593
+              0.20621550190484014,
+              0.23006862995672117,
+              0.2213467841463694,
+              0.2167998734689673,
+              0.20041537993637026,
+              0.24147176865993644,
+              0.24439757002855775,
+              0.23861678038125644,
+              0.24471251177617437,
+              0.20313381719289988
             ]
           },
           "fold_ids": [
@@ -539,13 +459,14 @@
             "blind_random_7of23_split_10"
           ],
           "evidence": {
-            "source_id": "neural-style-control-results",
-            "sha256": "52fd9c9bc5d623981219a84fa16b844789ccf7a687d5c695a8e71a55f7e09e10",
+            "source_id": "pandar-e2e-paired-interpolation-results",
+            "sha256": "df08cb1bcf46d12128421deca21cc485f336ece27724221d035e5ed59b56309c",
             "selection": {
               "domain": "pandar",
-              "method": "e2e"
+              "method": "e2e",
+              "paired_support_interpolation": true
             },
-            "aggregation": "existing per-split means; ten splits; sample SD"
+            "aggregation": "per-split means; ten splits; sample SD"
           }
         }
       },
@@ -615,42 +536,23 @@
             8.779425290737901
           ]
         },
-        "pc_gfanc_support_selected": {
-          "n_splits": 10,
-          "mean": 8.864026796458042,
-          "sd_across_splits": 0.3250724216411362,
-          "min": 8.415126052320618,
-          "max": 9.512526245474199,
-          "split_values": [
-            8.957573147110754,
-            8.881231028417885,
-            8.670169952562587,
-            8.514783295362701,
-            8.971374350519685,
-            9.512526245474199,
-            9.07644778930627,
-            9.044074195423535,
-            8.415126052320618,
-            8.59696190808218
-          ]
-        },
         "pc_e2e": {
           "n_splits": 10,
-          "mean": 8.169696352341493,
-          "sd_across_splits": 0.5689074466073503,
-          "min": 6.960933183331868,
-          "max": 8.776476699450395,
+          "mean": 8.008314233601684,
+          "sd_across_splits": 0.5235493381255922,
+          "min": 6.730656518823249,
+          "max": 8.644984959924278,
           "split_values": [
-            8.641365303644356,
-            7.82375362104959,
-            7.602708065886507,
-            8.027962995758722,
-            8.776476699450395,
-            8.436763702194286,
-            8.445230234300888,
-            8.643085909485453,
-            8.338683808312865,
-            6.960933183331868
+            8.26942914042122,
+            7.895399886624661,
+            7.739675038246226,
+            8.177252886471367,
+            8.491932685376645,
+            8.082443185650867,
+            8.087137568597486,
+            8.644984959924278,
+            7.964230465880842,
+            6.730656518823249
           ]
         }
       }
@@ -1054,86 +956,6 @@
             "aggregation": "existing per-split means; ten splits; sample SD"
           }
         },
-        "pc_gfanc": {
-          "nr_db": {
-            "n_splits": 10,
-            "mean": 7.647909822560325,
-            "sd_across_splits": 2.4347665957177504,
-            "min": 2.045636333858923,
-            "max": 11.032240548182363,
-            "split_values": [
-              8.146104839248693,
-              7.630806709413196,
-              7.411632856732165,
-              8.661918746909622,
-              9.106638409334966,
-              5.9589328193488855,
-              9.564196914332358,
-              11.032240548182363,
-              2.045636333858923,
-              6.920990048242079
-            ]
-          },
-          "rebound_db": {
-            "n_splits": 10,
-            "mean": 0.8535238660323617,
-            "sd_across_splits": 0.3945556264245629,
-            "min": 0.3383894712370641,
-            "max": 1.4490456177938025,
-            "split_values": [
-              0.8144588707539732,
-              1.0486588205940695,
-              0.5227275735861766,
-              0.6648223082648689,
-              0.6269084918745599,
-              1.312385503888617,
-              0.47074154873485735,
-              0.3383894712370641,
-              1.287100453595628,
-              1.4490456177938025
-            ]
-          },
-          "controller_rms": {
-            "n_splits": 10,
-            "mean": 0.15804960982354863,
-            "sd_across_splits": 0.01985695000978479,
-            "min": 0.14238855136093864,
-            "max": 0.20873604607121657,
-            "split_values": [
-              0.14726910692115366,
-              0.14610998912282372,
-              0.15577180647649244,
-              0.16316334265764004,
-              0.14425265262667158,
-              0.1670360430268177,
-              0.14238855136093864,
-              0.14514745601228993,
-              0.20873604607121657,
-              0.16062110395944185
-            ]
-          },
-          "fold_ids": [
-            "blind_random_3of10_split_01",
-            "blind_random_3of10_split_02",
-            "blind_random_3of10_split_03",
-            "blind_random_3of10_split_04",
-            "blind_random_3of10_split_05",
-            "blind_random_3of10_split_06",
-            "blind_random_3of10_split_07",
-            "blind_random_3of10_split_08",
-            "blind_random_3of10_split_09",
-            "blind_random_3of10_split_10"
-          ],
-          "evidence": {
-            "source_id": "neural-style-control-results",
-            "sha256": "52fd9c9bc5d623981219a84fa16b844789ccf7a687d5c695a8e71a55f7e09e10",
-            "selection": {
-              "domain": "tenpath",
-              "method": "gfanc"
-            },
-            "aggregation": "existing per-split means; ten splits; sample SD"
-          }
-        },
         "pc_e2e": {
           "nr_db": {
             "n_splits": 10,
@@ -1310,16 +1132,13 @@
         20260832
       ],
       "checkpoint": "fixed final 6400; no held-score selection",
-      "gfanc": "one converged estimated-support WMMSE mother per split; 15 fixed DFT subfilters; original sigmoid mixture head",
-      "gfanc_initial_output": "sigmoid(2)*mother, exactly preserving original bias=2 initialization; mother is not an additive residual skip",
       "wmmse_relative_normal_residual": 1e-10,
       "wmmse_relative_ridge": 0.0001,
       "wmmse_uses_augmented_paths": false,
       "wmmse_uses_held_paths": false,
-      "gfanc_lr": 0.001,
       "e2e_lr": 0.0005,
       "optimizer": "AdamW, weight_decay=1e-4",
-      "scheduler": "original StepLR: GFANC each 3 epochs, E2E each 5 epochs; gamma=.5; 80 steps/epoch",
+      "scheduler": "E2E StepLR every 5 epochs; gamma=.5; 80 steps/epoch",
       "loss": "same time-domain support physical objective; auxiliary delta penalty zero because these heads do not predict PRIME magnitude residual",
       "input_representation": "Eight-channel PP/SP-derived baseline features from unscaled path estimates",
       "score_seconds": [
@@ -1340,5 +1159,5 @@
     },
     "negative_split_example": "E2E split09: -4.574504671887634 dB"
   },
-  "baseline_configuration": "FOMAML uses true-support supervision and zero to three GN updates. Shared WMMSE uses Sxx/Nb weights and ten reference sounds. GFANC/E2E controls include six magnitude statistics with the corresponding dataset training and checkpoint settings."
+  "baseline_configuration": "FOMAML uses true-support supervision and zero to three GN updates. Shared WMMSE uses Sxx/Nb weights and ten reference sounds. The E2E-CFG control includes six magnitude statistics with the corresponding dataset training and checkpoint settings."
 }

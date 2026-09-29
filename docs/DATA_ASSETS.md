@@ -14,8 +14,6 @@
 | `adaptive/figure/` | 100 Ten-path and 460 original-condition PANDAR path/noise FIRs |
 | `adaptive/table/` | 184 FxLMS and 184 FxNLMS white-adapted FIRs |
 
-`source_recordings.tar.gz` contains eight calibration recordings and the original Ten-path path materials. These are optional for pretrained inference. See `RIGHTS.md` for the distinct data sources.
-
 ## Array conventions
 
 Ten-path NPZ inputs contain `p` and `s`. PANDAR estimated path files contain `primary_hat_8192` and `secondary_hat_2048`; repack these as `p` and `s` for the synthesis CLI without rescaling. Ten-path follows the NPZ `ids` array; PANDAR follows sorted child IDs. Preserve this order when matching FIRs to evaluation paths.

@@ -6,15 +6,21 @@ version: 0.1.0
 authors:
   - family-names: Huang
     given-names: Yaokun
-  - family-names: Hua
-    given-names: Haowen
-  - family-names: Lin
-    given-names: Sen
-  - family-names: Hu
-    given-names: Shichao
-  - family-names: Zhu
-    given-names: Mengyao
+    orcid: "https://orcid.org/0000-0002-2031-1207"
   - family-names: Xu
     given-names: Chunyang
+    orcid: "https://orcid.org/0000-0002-2301-2173"
+  - family-names: Hua
+    given-names: Haowen
+    orcid: "https://orcid.org/0009-0005-4797-5715"
+  - family-names: Lin
+    given-names: Sen
+    orcid: "https://orcid.org/0009-0001-6115-1617"
+  - family-names: Hu
+    given-names: Shichao
+    orcid: "https://orcid.org/0009-0006-3809-5000"
+  - family-names: Zhu
+    given-names: Mengyao
+    orcid: "https://orcid.org/0000-0002-1069-4427"
 repository-code: "https://github.com/HANA225-HUB/PRIME-ANC"
 license: MIT

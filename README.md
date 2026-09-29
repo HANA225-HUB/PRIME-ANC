@@ -4,6 +4,17 @@ Code for **PRIME-ANC: Path-Ratio-Informed Modeling for Efficient Neural Filter S
 
 PRIME-ANC combines an analytic path-ratio magnitude base with a learned bounded correction. Given calibrated primary and secondary paths, the shared network produces a causal FIR through minimum-phase reconstruction and truncation. Optional Gauss–Newton refinement updates the FIR taps.
 
+## Results at a glance
+
+The standard model with paired support-path interpolation achieves the following held-out noise reduction over 50 Hz–5 kHz (mean ± sample SD across ten splits):
+
+| Dataset | Support / held-out | Noise reduction (dB) |
+|---|---:|---:|
+| Ten-path | 3 / 7 paths | 18.81 ± 2.57 |
+| PANDAR | 7 / 16 participants | 17.76 ± 0.30 |
+
+![Frequency-resolved noise reduction on held-out paths and participants](figures/main_k0_frequency.png)
+
 ## Installation
 
 Python 3.10 or newer is required.
@@ -19,7 +30,7 @@ For fused NVIDIA GPU refinement, use Linux, CUDA-enabled PyTorch and a compatibl
 
 ## Pretrained models and data
 
-The [release assets](https://github.com/HANA225-HUB/PRIME-ANC/releases) contain 60 standard-model checkpoints, calibrated paths, frozen FIRs and evaluation audio. Download `prime_anc_paper_assets_20260916.tar.gz`, then:
+The [v0.1.0 release assets](https://github.com/HANA225-HUB/PRIME-ANC/releases/tag/v0.1.0) contain 60 standard-model checkpoints, calibrated paths, frozen FIRs and evaluation audio. Download `prime_anc_paper_assets_20260916.tar.gz`, then:
 
 ```bash
 mkdir -p assets
