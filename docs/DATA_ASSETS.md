@@ -2,7 +2,7 @@
 
 ## Archives
 
-`prime_anc_paper_assets_20260916.tar.gz` contains the following directories. Extract it under `assets/` and run `scripts/verify_assets.py --assets assets` to verify all 1,438 file hashes. Archive hashes are in `release_assets.json`.
+`prime_anc_paper_assets_20260929.tar.gz` contains the following directories. Extract it under `assets/` and run `scripts/verify_assets.py --assets assets` to verify all 1,440 file hashes. Archive hashes are in `release_assets.json`.
 
 | Directory | Contents |
 |---|---|
@@ -13,6 +13,7 @@
 | `data/shared_audio_10_sounds/` | Eight DEMAND recordings and white/pink noise; NPY and WAV formats |
 | `adaptive/figure/` | 100 Ten-path and 460 original-condition PANDAR path/noise FIRs |
 | `adaptive/table/` | 184 FxLMS and 184 FxNLMS white-adapted FIRs |
+| `LICENSES/` | Data attribution and the PANDAR archive's MIT license notice |
 
 ## Array conventions
 

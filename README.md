@@ -30,7 +30,7 @@ For fused NVIDIA GPU refinement, use Linux, CUDA-enabled PyTorch and a compatibl
 
 ## Pretrained models and data
 
-The [v0.1.0 release assets](https://github.com/HANA225-HUB/PRIME-ANC/releases/tag/v0.1.0) contain 60 standard-model checkpoints, calibrated paths, frozen FIRs and evaluation audio. Download `prime_anc_paper_assets_20260916.tar.gz`, then:
+The [v0.1.0 release assets](https://github.com/HANA225-HUB/PRIME-ANC/releases/tag/v0.1.0) contain 60 standard-model checkpoints, calibrated paths, frozen FIRs and evaluation audio. Download `prime_anc_paper_assets_20260929.tar.gz`, then:
 
 ```bash
 mkdir -p assets
@@ -38,7 +38,7 @@ tar -xzf prime_anc_paper_assets_20260916.tar.gz -C assets
 python scripts/verify_assets.py --assets assets
 ```
 
-The checkpoint layout records the dataset, split and seed. Each checkpoint contains network tensors only. See [asset layout and provenance](docs/DATA_ASSETS.md) and [data attribution](docs/RIGHTS.md).
+The checkpoint layout records the dataset, split and seed. Each checkpoint contains network tensors only. The archive includes its data attribution and PANDAR license notice. See [asset layout and provenance](docs/DATA_ASSETS.md) and [data attribution](docs/RIGHTS.md).
 
 ## Synthesize filters
 

@@ -7189,6 +7189,16 @@
       "path": "filters/tenpath/split_10/seed_20260832/frozen_firs/PRIME-ANC_K0.npy",
       "bytes": 82048,
       "sha256": "8d8502d6ffcfc14cf5a11db530a9d2058793774746ad6a546f02b8402c1c987c"
+    },
+    {
+      "path": "LICENSES/RIGHTS.md",
+      "bytes": 1791,
+      "sha256": "517dd87af9dc11af7da5b942bd709c0461f2d7b9a10b311da7b5b72365362600"
+    },
+    {
+      "path": "LICENSES/PANDAR_LICENSE.txt",
+      "bytes": 1354,
+      "sha256": "c925545bd8d1f0e638b513e5122846a22ca33f2620c61778dc56661fabd592be"
     }
   ]
 }
